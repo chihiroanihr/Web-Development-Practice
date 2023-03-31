@@ -7,6 +7,8 @@
 <br>
 
 ### DB Admin:
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/42660669/229224570-f59b1a22-e187-4cdf-9378-f51d190bbd10.png">
+
 admin<br>
 rhina99@naver.com<br>
 리나삼삼<br>
