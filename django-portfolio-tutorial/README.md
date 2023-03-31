@@ -8,6 +8,7 @@
 <br>
 
 ### DB Admin:
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/42660669/229224674-f49c41fe-685e-4f1b-8337-8ce3acb9971c.png">
 admin <br>
 리나삼삼 <br>
 <br>
