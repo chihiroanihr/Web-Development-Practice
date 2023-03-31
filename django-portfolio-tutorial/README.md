@@ -7,9 +7,9 @@
 <img width="1277" alt="image" src="https://user-images.githubusercontent.com/42660669/229223762-155212ed-b064-4595-900c-a7d13f2c8773.png">
 <br>
 
-### Secrets:
-admin
-리나삼삼
+### DB Admin:
+admin <br>
+리나삼삼 <br>
 <br>
 
 ### Youtube:
