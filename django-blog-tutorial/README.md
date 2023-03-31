@@ -1,4 +1,4 @@
-## はじめてのブログサイト(Django)
+# はじめてのブログサイト(Django)
 
 
 ### Screenshots:
