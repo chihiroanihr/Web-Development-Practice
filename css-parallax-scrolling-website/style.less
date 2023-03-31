@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+@color-1: #2b1055;
+@color-2: #1c0522;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth; // smooth transition when scroll btn clicked
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(@color-1, #7597de);
+  overflow-x: hidden; // for stars img to not overflow when scrolled
+}
+
+/* ------- Navbar ------- */
+header {
+  // position
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // style
+  width: 100%;
+  padding: 30px 100px;
+  z-index: 9999; // hide the absolute backgrounds
+
+  /* navbar logo */
+  a.logo {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none; // remove link's text deco
+  }
+
+  /* navbar lists */
+  ul {
+    // position
+    display: flex; // flex row: default
+    justify-content: center;
+    align-items: center;
+
+    /* navbar each lists */
+    li {
+      list-style: none; // remove list's default style
+      margin-left: 20px;
+
+      /* navbar link for each lists */
+      a {
+        color: #fff;
+        text-decoration: none; // remove link's text deco
+        border-radius: 20px;
+        padding: 6px 15px;
+      }
+      /* navbar link for each lists on hover & on active */
+      a:hover,
+      a.active {
+        color: @color-1;
+        background: #fff;
+      }
+    }
+  }
+}
+
+/* ------- Section ------- */
+section {
+  // position
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // style
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  overflow: hidden; // for elements to not overflow to the paragraph when scrolled
+
+  /* images */
+  img {
+    // position
+    position: absolute;
+    top: 0;
+    left: 0;
+    // style
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; // disable pointers
+  }
+  /* moon image */
+  img#moon {
+    mix-blend-mode: screen;
+  }
+  /* front mountain image */
+  img#mountains_front {
+    z-index: 10; // comes in front of the text
+  }
+  /* "Moon Light" Text */
+  #text {
+    // position
+    position: absolute;
+    right: -350px; // initial position before scroll
+    // style
+    color: #fff;
+    font-size: 7.5vw;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  /* "Explore" button */
+  #btn {
+    // style
+    color: @color-1;
+    font-size: 1.5em;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 40px;
+    padding: 8px 30px;
+    display: inline-block;
+    z-index: 9;
+    // position
+    transform: translateY(100px); // downward
+  }
+}
+/* Gradient effect from section to section */
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, @color-2, transparent);
+  z-index: 999;
+}
+
+/* ------- Paragraph ------- */
+.paragraph {
+  // position
+  position: relative;
+  // style
+  padding: 100px;
+  background: @color-2;
+
+  /* title */
+  h2 {
+    color: #fff;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+  }
+  /* texts */
+  p {
+    color: #fff;
+    font-size: 1em;
+  }
+}

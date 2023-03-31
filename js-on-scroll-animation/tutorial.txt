@@ -1,0 +1,5 @@
+If you have node installed:
+
+run page by 
+
+$ npx serve

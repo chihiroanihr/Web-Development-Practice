@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loading page</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <h2>Now Loading...</h2>
+    </div>
+
+    <!-- Content (after loading done )-->
+    <div class="content">
+      <h1>This is a Content</h1>
+    </div>
+
+    <script>
+      // "once loading is done"
+      window.onload = function () {
+        // Optional: setTimeout is not needed. Here is just for slow motion visibility.
+        setTimeout(() => {
+          // ----- remove loader ----- //
+          const loader = document.querySelector(".loader");
+          loader.classList.add("loaded");
+
+          // ----- show content ----- //
+          const content = document.querySelector(".content");
+          content.style.opacity = 1; // show content via js
+          // content.classList.add("loaded"); // show content via cs (alternative)
+        }, 1300);
+      };
+    </script>
+  </body>
+</html>

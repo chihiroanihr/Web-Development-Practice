@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+@dimWhite: #f3f5f8;
+@darkGrey: #3d535f;
+@violet: #7f00ff;
+@pink: #ff3bb3;
+@darkGreen: #1d3a32;
+@green: #296252;
+@blue: #0e4386;
+@lightBlue: #196cbb;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: @dimWhite;
+}
+
+/* ---------------- Navbar ---------------- */
+nav {
+  // position
+  display: flex; // row
+  justify-content: space-around;
+  align-items: center;
+  // style
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  z-index: 100;
+
+  /* ----- Navbar Logo ----- */
+  div.logo {
+    // position
+    display: flex; // row
+    // style
+    color: @darkGrey;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer; // enable pointer
+
+    /* Navbar Logo "." */
+    b {
+      font-size: 70px;
+      color: @pink;
+    }
+  }
+
+  /* ----- Navbar NavItems ----- */
+  ul.navItems {
+    display: flex; // row
+
+    // each items
+    li {
+      list-style: none; // remove list's default style
+      margin: 0 15px;
+
+      // item link
+      a {
+        color: @darkGrey;
+        font-size: 25px;
+        letter-spacing: 3px;
+        text-decoration: none; // remove link's text deco
+        text-transform: capitalize;
+      }
+      // item link on hover
+      a:hover {
+        color: @pink;
+      }
+    }
+  }
+
+  /* ----- Navbar Social Links ----- */
+  div.links {
+    // item link
+    a {
+      color: @darkGrey;
+      font-size: 35px;
+      margin: 25px 10px;
+    }
+    // item link on hover
+    a:hover {
+      color: @pink;
+    }
+  }
+}
+
+/* ---------------- Main ---------------- */
+/* ----- Circle 1 ----- */
+.wrapper::before {
+  content: "";
+  // position
+  position: absolute;
+  top: 40%;
+  left: -10%;
+  // style
+  width: clamp(300px, 60vw, 600px);
+  height: clamp(300px, 60vw, 600px);
+  border-radius: 50%;
+  background: linear-gradient(45deg, @pink, pink);
+  // animation
+  animation: circle1 6s linear infinite 0.3s;
+}
+// animation for circle 1
+@keyframes circle1 {
+  50% {
+    top: 41%;
+    left: -13%;
+  }
+}
+/* ----- Circle 2 ----- */
+.wrapper::after {
+  content: "";
+  // position
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  // style
+  width: clamp(100px, 30vw, 200px);
+  height: clamp(100px, 30vw, 200px);
+  border-radius: 50%;
+  background: linear-gradient(45deg, @pink, pink);
+  // animation
+  animation: circle2 5s linear infinite;
+}
+// animation for circle 2
+@keyframes circle2 {
+  50% {
+    top: 10%;
+    left: 35%;
+  }
+}
+
+/* ----- Main Image and Text ----- */
+.wrapper {
+  // position
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-content: center;
+  align-items: center;
+  // style
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+  overflow: hidden;
+
+  div.cols {
+    // width: 50%;
+
+    /* ----- Main Texts----- */
+    &.text-section {
+      z-index: 10;
+
+      // "Hello"
+      span.topline {
+        display: block; // ?
+        position: relative;
+        color: @darkGrey;
+        font-size: 30px;
+        letter-spacing: 5px;
+      }
+      // Underline after "Hello"
+      span.topline::after {
+        // position
+        position: absolute;
+        content: "";
+        // style
+        background-color: @pink;
+        height: 4px;
+        width: 45px;
+        bottom: 10px;
+      }
+      // "I'm Coder"
+      h1 {
+        display: block;
+        color: @darkGrey;
+        // font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+        font-size: clamp(2em, 9vw, 7em);
+        font-weight: 900;
+        white-space: nowrap; // avoid text wrap
+
+        // "Coder"
+        span.multiText {
+          color: @pink;
+          text-transform: capitalize;
+        }
+      }
+      // Introduction Paragraphs
+      p {
+        display: block;
+        width: 90%;
+        color: @darkGrey;
+        font-size: clamp(0.9em, 4vw, 1.2em);
+      }
+      // Introduction Buttons
+      div.btns {
+        display: inline-flex;
+        position: relative;
+        width: 100%;
+
+        // button
+        button {
+          outline: none; // remove default button style
+          border: none;
+          cursor: pointer;
+          color: #fff;
+          font-size: clamp(18px, 2vw, 25px);
+          font-weight: 400;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+          background-color: @darkGrey;
+          box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+          padding: 8px 2%;
+          margin: 40px 5px;
+        }
+        // button on hover
+        button:hover {
+          background-color: @pink;
+        }
+      }
+    }
+
+    /* ----- Main Images ----- */
+    &.image-section {
+      align-self: stretch;
+
+      // Images
+      div.imgbox {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        // each images
+        img {
+          position: relative;
+          top: 0;
+          right: -30px;
+          width: 100%;
+          object-fit: cover;
+
+          // for stroke image
+          &#stroke {
+            // position
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            // style
+            width: 100%;
+            min-height: 90%;
+            overflow: visible;
+            mix-blend-mode: multiply;
+            // animation
+            animation: animateImgStroke 4s linear 0.5s infinite;
+          }
+          // animation for stroke image
+          @keyframes animateImgStroke {
+            50% {
+              top: 48%;
+              left: 51%;
+              width: 110%;
+            }
+          }
+
+          // for me image
+          &#me {
+            transform: scale(1.4); // enlarge
+            animation: animateImgMe 4s linear infinite; // animation
+          }
+          // animation for images
+          @keyframes animateImgMe {
+            50% {
+              transform: scale(1.5);
+              right: 0px;
+              top: -20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

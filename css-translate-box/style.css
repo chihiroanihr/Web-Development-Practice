@@ -1,0 +1,49 @@
+/* Animation Version 1 */
+.parent1 {
+  background-color: hsla(200, 100%, 20%);
+  width: 400px;
+  height: 400px;
+}
+.child1 {
+  background-color: palevioletred;
+  width: 50%;
+  height: 50%;
+  transition: transform 1s ease-in;
+}
+.parent1:hover .child1 {
+  /* moving child to x-axis 100% (right) */
+  transform: translateX(100%);
+}
+
+/* Animation Version 2 */
+.parent2 {
+  background-color: hsla(200, 100%, 20%);
+  width: 400px;
+  height: 400px;
+}
+.child2 {
+  background-color: palevioletred;
+  width: 50%;
+  height: 50%;
+  /* moving child to x-axis 100% (right) */
+  animation: left-to-right 1s ease-in forwards 3 alternate; /* alternate 3 times */
+  animation: left-to-right 1s ease-in infinite alternate; /* alternate infinitely */
+}
+.parent2:hover .child2 {
+  animation-play-state: paused; /* pause animation when hovered */
+}
+@keyframes left-to-right {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateY(100%); /* move down */
+  }
+  66% {
+    transform: translateX(100%) translateY(100%); /* move right */
+  }
+  100% {
+    background-color: darkkhaki;
+    transform: translateX(100%); /* move up (transalteY = 0) */
+  }
+}

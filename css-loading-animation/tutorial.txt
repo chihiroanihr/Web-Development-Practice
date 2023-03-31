@@ -1,0 +1,7 @@
+For the border radius, refer to: 
+https://9elements.github.io/fancy-border-radius/#64.30.61.30--.
+
+and paste value as 
+{
+    border-radius: {value}
+}
