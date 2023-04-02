@@ -3,22 +3,22 @@ https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/com
 
 
 ### Install Bootstrap
-$ npm install react-bootstrap bootstrap
+```$ npm install react-bootstrap bootstrap```
 
 ### Install Bootstrap Icons
-$ npm install react-bootstrap-icons --save
+```$ npm install react-bootstrap-icons --save```
 
 ### Install react-multi-carousel
-$ npm i(install) react-multi-carousel
+```$ npm i(install) react-multi-carousel```
 
 ### Need 3 packages for mail servers to send information
 - express
 - cors
 - nodemailer
-$ npm install express cors nodemailer
+```$ npm install express cors nodemailer```
 
 ### Install react-mailchimp-subscribe
-$npm i react-mailchimp-subscribe
+```$npm i react-mailchimp-subscribe```
 
 --> You need to create mailchimp account
 --> Audience > Sign Up Forms > Form Builder (select)
@@ -33,4 +33,4 @@ $npm i react-mailchimp-subscribe
     We will reference these later in our form to map our own fields with these Mailchimp fields.
 
 ### Install animate.css
-$ npm install animate.css --save
+```$ npm install animate.css --save```
