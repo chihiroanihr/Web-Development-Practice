@@ -1,0 +1,50 @@
+/************ Skills Css ************/
+.skill {
+  position: relative;
+  padding: 0 0 50px 0;
+}
+.skill-box {
+  text-align: center;
+  background: #151515;
+  border-radius: 64px;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+@media screen and (max-width: 464px) {
+  .skill-box {
+    padding: 60px 0px;
+  }
+}
+
+/* Skills Text Section */
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.skill p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 75px auto; /* center horizontally */
+}
+
+/* Skills Slider Section */
+.skill-slider {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+/* Color Sharp Background */
+.background-image-left {
+  position: absolute;
+  top: 28%;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}

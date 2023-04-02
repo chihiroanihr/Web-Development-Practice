@@ -1,0 +1,160 @@
+/************ Projects Css ************/
+.project {
+  position: relative;
+  padding: 80px 50px;
+  background-color: black;
+}
+@media screen and (max-width: 464px) {
+  .project {
+    padding: 80px 0px;
+  }
+}
+/* Project Title */
+.project h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+/* Project Description */
+.project p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 14px auto 30px auto; /* center horizontally */
+}
+@media screen and (max-width: 464px) {
+  .project p {
+    width: 100%;
+  }
+}
+
+/* Project Tabs */
+.project .nav.nav-pills {
+  display: flex;
+  justify-content: center;
+  width: 72%;
+  margin: 0 auto; /* center horizontally */
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden; /* for the active tab background to not overflow */
+}
+@media screen and (max-width: 464px) {
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+}
+/* Tab Each Items */
+.project .nav.nav-pills .nav-item {
+  flex-grow: 1;
+}
+/* Tab Links */
+.project .nav.nav-pills .nav-link {
+  position: relative;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 0;
+  width: 100%;
+  padding: 17px 0;
+  transition: 0.3s ease-in-out;
+  z-index: 0;
+}
+/* For Active Tab Link */
+.project .nav.nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; /* initial width */
+  height: 100%;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.project .nav.nav-pills .nav-link.active::before {
+  width: 100% !important; /* width after active */
+}
+.project .nav.nav-pills .nav-link.active {
+  border: 1px solid rgba(255, 255, 255, 1); /* brighter border after active */
+}
+
+/* Tab One Link Border */
+.nav-link#projects-tabs-tab-first {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+/* Tab Two Link Border */
+.nav-link#projects-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+/* Tab Three Link Border */
+.nav-link#projects-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}
+
+/* Tab Content Image */
+.project-imgbox {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  z-index: 4; /* overlaps with background image */
+}
+/* For Active Tab Content Image */
+.project-imgbox::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0; /* initial height */
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.85;
+  transition: 0.4s ease-in-out;
+}
+.project-imgbox:hover::before {
+  height: 100%; /* height after active */
+}
+
+/* Tab Content Text */
+.project-texts {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 65%; /* initial position */
+  opacity: 0; /* initial opacity */
+  transition: 0.5s ease-in-out;
+}
+/* For Active Tab Content Text */
+.project-imgbox:hover .project-texts {
+  top: 50%; /* position after hovered (move up) */
+  opacity: 1; /* opacity after hovered */
+}
+.project-texts h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.project-texts span {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.8px;
+}
+
+/* Color Sharp Background */
+.background-image-right {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+}
