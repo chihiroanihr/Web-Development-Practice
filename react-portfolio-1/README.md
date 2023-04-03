@@ -4,22 +4,22 @@
 <img width="600" alt="Screenshot 2023-04-02 at 4 56 32 PM" src="https://user-images.githubusercontent.com/42660669/229378589-c44daea3-95f5-4376-80a9-9a0e1a90d29a.png">
 
 # Packages Installed
-### Install Bootstrap
+### Bootstrap
 ```$ npm install react-bootstrap bootstrap```
 
-### Install Bootstrap Icons
+### Bootstrap Icons
 ```$ npm install react-bootstrap-icons --save```
 
-### Install react-multi-carousel
+### _react-multi-carousel_
 ```$ npm i(install) react-multi-carousel```
 
-### Install 3 packages for mail servers to send information
+### _express_, _cors_, _nodemailer_: 3 packages for mail servers to send information
 ```$ npm install express cors nodemailer```
 - express
 - cors
 - nodemailer
 
-### Install react-mailchimp-subscribe
+### _react-mailchimp-subscribe_
 ```$npm i react-mailchimp-subscribe```
 
 **->** You need to create mailchimp account <br>
