@@ -1,10 +1,10 @@
 # ポートフォリオ構築(Django)
 
 ### Screenshots:
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/42660669/229223411-07595c45-586f-440e-a45b-92ead134293e.png">
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/42660669/229223554-f242550c-064e-4f8d-96de-dd55681de332.png">
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/42660669/229223649-8dab4f6a-72de-47ce-a387-9c2c7759d698.png">
-<img width="1277" alt="image" src="https://user-images.githubusercontent.com/42660669/229223762-155212ed-b064-4595-900c-a7d13f2c8773.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229223411-07595c45-586f-440e-a45b-92ead134293e.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229223554-f242550c-064e-4f8d-96de-dd55681de332.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229223649-8dab4f6a-72de-47ce-a387-9c2c7759d698.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229223762-155212ed-b064-4595-900c-a7d13f2c8773.png">
 <br>
 
 ### DB Admin:
