@@ -1,4 +1,4 @@
-# Screenshots:
+# Screenshots
 <img width="600" alt="Screenshot 2023-04-02 at 4 56 10 PM" src="https://user-images.githubusercontent.com/42660669/229378576-e9f437c3-e1a4-4f36-ae9d-c98dd6783dc0.png">
 <img width="600" alt="Screenshot 2023-04-02 at 4 56 22 PM" src="https://user-images.githubusercontent.com/42660669/229378584-a755d6c3-e27a-46bf-aa7c-ed61fe938261.png">
 <img width="600" alt="Screenshot 2023-04-02 at 4 56 32 PM" src="https://user-images.githubusercontent.com/42660669/229378589-c44daea3-95f5-4376-80a9-9a0e1a90d29a.png">
@@ -38,5 +38,8 @@
 ### animate.css
 ```$ npm install animate.css --save```
 
-# Original Source Code:
+# Original Sources
+### Youtube:
+https://www.youtube.com/watch?v=hYv6BM2fWd8
+### Github: 
 https://github.com/judygab/web-dev-projects/tree/main/personal-portfolio
