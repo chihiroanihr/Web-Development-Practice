@@ -13,8 +13,9 @@
 ### _react-multi-carousel_
 ```$ npm i(install) react-multi-carousel```
 
-### _express_, _cors_, _nodemailer_: 3 packages for mail servers to send information
+### _express_, _cors_, _nodemailer_
 ```$ npm install express cors nodemailer```
+3 packages for mail servers to send information
 - express
 - cors
 - nodemailer
