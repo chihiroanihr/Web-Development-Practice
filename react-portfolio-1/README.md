@@ -10,17 +10,17 @@
 ### Bootstrap Icons
 ```$ npm install react-bootstrap-icons --save```
 
-### _react-multi-carousel_
+### react-multi-carousel
 ```$ npm i(install) react-multi-carousel```
 
-### _express_, _cors_, _nodemailer_
+### express, cors, nodemailer
 ```$ npm install express cors nodemailer```
 3 packages for mail servers to send information
 - express
 - cors
 - nodemailer
 
-### _react-mailchimp-subscribe_
+### react-mailchimp-subscribe
 ```$npm i react-mailchimp-subscribe```
 
 **->** You need to create mailchimp account <br>
@@ -35,7 +35,7 @@
 &emsp;In the input field sections for Email, First Name, Last Name – take note of the for="" in each of them. For me they are named MERGE0, MERGE1, and MERGE2 respectively.  <br>
 &emsp;We will reference these later in our form to map our own fields with these Mailchimp fields. <br>
 
-### Install animate.css
+### animate.css
 ```$ npm install animate.css --save```
 
 # Original Source Code:
