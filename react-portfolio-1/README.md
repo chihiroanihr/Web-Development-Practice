@@ -1,12 +1,9 @@
-### Original Source Code:
-https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/components/NavBar.js
+# Screenshots:
+<img width="800" alt="Screenshot 2023-04-02 at 4 56 10 PM" src="https://user-images.githubusercontent.com/42660669/229378576-e9f437c3-e1a4-4f36-ae9d-c98dd6783dc0.png">
+<img width="800" alt="Screenshot 2023-04-02 at 4 56 22 PM" src="https://user-images.githubusercontent.com/42660669/229378584-a755d6c3-e27a-46bf-aa7c-ed61fe938261.png">
+<img width="800" alt="Screenshot 2023-04-02 at 4 56 32 PM" src="https://user-images.githubusercontent.com/42660669/229378589-c44daea3-95f5-4376-80a9-9a0e1a90d29a.png">
 
-### Screenshots:
-<img width="1008" alt="Screenshot 2023-04-02 at 4 56 10 PM" src="https://user-images.githubusercontent.com/42660669/229378576-e9f437c3-e1a4-4f36-ae9d-c98dd6783dc0.png">
-<img width="1015" alt="Screenshot 2023-04-02 at 4 56 22 PM" src="https://user-images.githubusercontent.com/42660669/229378584-a755d6c3-e27a-46bf-aa7c-ed61fe938261.png">
-<img width="1017" alt="Screenshot 2023-04-02 at 4 56 32 PM" src="https://user-images.githubusercontent.com/42660669/229378589-c44daea3-95f5-4376-80a9-9a0e1a90d29a.png">
-
-## Packages
+# Packages Installed
 ### Install Bootstrap
 ```$ npm install react-bootstrap bootstrap```
 
@@ -39,3 +36,6 @@ https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/com
 
 ### Install animate.css
 ```$ npm install animate.css --save```
+
+# Source Code:
+https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/components/NavBar.js
