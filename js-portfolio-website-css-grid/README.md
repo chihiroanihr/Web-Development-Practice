@@ -1,7 +1,7 @@
 ### Youtube: 
 https://www.youtube.com/watch?v=wceTVt111OM&t=3s
 
-### Original Source Code:
+### Github:
 https://github.com/kevin-powell/portfolio-with-css-grid
 
 ### Screenshots:
