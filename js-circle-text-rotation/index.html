@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Circle Text Animation | splitting.js</title>
+</head>
+
+<body>
+
+    <!-- Circle 1: Circle Text Rotation Default -->
+    <div class="container" id="circle-1">
+        <div class="circle" data-splitting>
+            Circle -Text-Animation-Effects-
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Circule 2: Circle Text Rotation Effects on Mouse Move -->
+    <div class="container" id="circle-2">
+        <div class="circle" data-splitting>
+            Circle -Text-Animation-Effects-
+        </div>
+    </div>
+
+    <!-- Import Splitting.js and Call Function -->
+    <script src="vendor/splitting.js"></script>
+    <script> Splitting(); </script>
+
+    <!-- Circle 2: Mousehover JS animation -->
+    <script>
+        let circle2 = document.querySelector('#circle-2 .circle');
+        window.onmousemove = function (e) {
+            let x = e.clientX / -2; // to slow down and reverse direction of the mouse move rotation
+            circle2.style.transform = "perspective(1000px) rotateY(" + x + "deg) rotateX(15deg)";
+        }
+    </script>
+
+</body>
+
+</html>

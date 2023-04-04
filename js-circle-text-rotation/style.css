@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* -------------------- Circle 1 -------------------- */
+.container#circle-1 {
+    background: #673ab7;
+}
+
+#circle-1 .circle {
+    transform-style: preserve-3d;
+    animation: animate1 8s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: perspective(1000px) rotateY(360deg) rotateX(15deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(0deg) rotateX(15deg);
+    }
+}
+
+#circle-1 .circle .word {
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+#circle-1 .circle .char {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #35146f;
+    font-size: 4em;
+    background: #fff;
+    padding: 5px 12px;
+    border-top: 4px solid #35146f;
+    border-bottom: 4px solid #35146f;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--char-index) * 12deg)) translateZ(250px);
+}
+
+
+/* -------------------- Circle 2 -------------------- */
+.container#circle-2 {
+    background: #191e38;
+    overflow: hidden;
+}
+
+#circle-2 .circle {
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(360deg) rotateX(15deg);
+}
+
+#circle-2 .circle .word {
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+#circle-2 .circle .char {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 4em;
+    background: #ff005e;
+    padding: 5px 12px;
+    border-top: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--char-index) * 12deg)) translateZ(250px);
+
+    text-shadow:
+        /* offset-x | offset-y | blur-radius | color */
+        500px 150px 10px rgba(225, 225, 225, 0.5),
+        300px 150px 0 rgba(225, 225, 225, 0.5),
+        150px 600px 0 rgba(225, 225, 225, 0.5),
+        600px 50px 0 rgba(225, 225, 225, 0.5),
+        400px 350px 0 rgba(225, 225, 225, 0.5),
+        200px 500px 0 rgba(225, 225, 225, 0.5),
+        500px -150px 10px rgba(225, 225, 225, 0.5),
+        300px -150px 0 rgba(225, 225, 225, 0.5),
+        150px -600px 0 rgba(225, 225, 225, 0.5),
+        600px -50px 0 rgba(225, 225, 225, 0.5),
+        400px -350px 0 rgba(225, 225, 225, 0.5),
+        200px -500px 0 rgba(225, 225, 225, 0.5);
+}
