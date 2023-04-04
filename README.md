@@ -22,5 +22,8 @@
 - ```python3 manage.py createsuperuser```
 - ```python manage.py runserver``` :exclamation:
 
-## React
+## create-react-app
 ```npm start```
+
+## vite-react
+```npm run dev```
