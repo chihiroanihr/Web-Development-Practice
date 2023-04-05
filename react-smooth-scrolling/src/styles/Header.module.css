@@ -1,0 +1,64 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* center */
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer h1 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navContainer nav ul {
+  display: flex; /* row */
+  gap: 2.5rem;
+}
+
+.navContainer button {
+  position: relative;
+  font-size: 1rem;
+  color: #eaeaea;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navContainer button:not(.activeClass)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: #eaeaea;
+  transform: scale(0, 1); /* scale(sx, sy) */
+  transform-origin: 0 100%;
+  transition: transform 0.25s ease;
+}
+
+.navContainer button:not(.activeClass):hover::before {
+  transform: scale(1);
+}
+
+.navContainer button.activeClass::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background: #eaeaea;
+}
