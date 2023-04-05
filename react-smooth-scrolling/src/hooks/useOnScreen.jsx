@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export const useOnScreen = (ref) => {
   const [isOnScreen, setIsOnScreen] = useState(false);

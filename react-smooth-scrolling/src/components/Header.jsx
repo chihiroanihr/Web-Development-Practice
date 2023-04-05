@@ -4,11 +4,14 @@ import { useContext } from "react";
 import { NavContext } from "../context/NavContext";
 
 function Header() {
+  // *** List of Nav Links *** //
   const navLinks = ["Home", "Destinations", "Hotels", "Flights", "Bookings"];
 
+  // For Active Nav Link Indicating when scrolled to specific section
   const { activeLinkId } = useContext(NavContext);
   console.log(activeLinkId);
 
+  // Render Nav Link and Handle Nav Link Clicked
   const renderNavLink = (content) => {
     const scrollToId = content.toLowerCase();
 
@@ -30,6 +33,7 @@ function Header() {
     );
   };
 
+  // Handle Brand Logo Clicked
   const handleClickLogo = () => {
     document.getElementById("home").scrollIntoView({ behavior: "smooth" });
   };
