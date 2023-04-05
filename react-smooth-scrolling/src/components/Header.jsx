@@ -11,6 +11,11 @@ function Header() {
   const { activeLinkId } = useContext(NavContext);
   console.log(activeLinkId);
 
+  // Handle Brand Logo Clicked
+  const handleClickLogo = () => {
+    document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+  };
+
   // Render Nav Link and Handle Nav Link Clicked
   const renderNavLink = (content) => {
     const scrollToId = content.toLowerCase();
@@ -31,11 +36,6 @@ function Header() {
         </button>
       </li>
     );
-  };
-
-  // Handle Brand Logo Clicked
-  const handleClickLogo = () => {
-    document.getElementById("home").scrollIntoView({ behavior: "smooth" });
   };
 
   return (
