@@ -4,6 +4,7 @@ import ArrowRightSVG from "./svg/ArrowRightSvg";
 function App() {
   return (
     <>
+      {/* ---------- Header ---------- */}
       <header className="text-grey-700 border-b border-gray-200">
         <div className="flex flex-col md:flex-row items-center container mx-auto p-5">
           <a href="#" className="font-medium text-gray-900 mb-4 md:mb-0">
@@ -27,6 +28,7 @@ function App() {
         </div>
       </header>
 
+      {/* ---------- Main ---------- */}
       <section id="home" className="text-gray-700">
         <div className="flex flex-col md:flex-row justify-center items-center container mx-auto py-20 px-5">
           {/* Text Section */}
@@ -54,6 +56,7 @@ function App() {
         </div>
       </section>
 
+      {/* ---------- About Me ---------- */}
       <section className="text-gray-700 border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto">
           {/* Text Section */}
@@ -91,7 +94,6 @@ function App() {
                   <div className="flex items-center mb-3">
                     {/* Icon */}
                     <div className="bg-pink-400 text-white rounded-full">
-                      {/* <img src={card.icon} alt="icon"/> */}
                       {card.icon}
                     </div>
                     {/* Text */}
@@ -119,6 +121,7 @@ function App() {
         </div>
       </section>
 
+      {/* ---------- Skills ---------- */}
       <section className="text-gray-700 border-t border-gray-200">
         <div className="flex flex-wrap container px-5 py-24 mx-auto">
           {/* Image Section */}
@@ -130,6 +133,7 @@ function App() {
             <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left">
               My Skills
             </h1>
+            {/* Indicator Bars */}
             {skills.map((skill, index) => (
               <div key={index} className="mb-2">
                 <h2>{skill.name}</h2>
