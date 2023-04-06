@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Zen+Antique&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Image will be fixed even if scrolled */
+}
+/* Put dark overlay to the body background */
+body::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500vh;
+  background: black;
+  opacity: 0.5;
+}
+
+.title {
+  position: absolute;
+  top: 15%;
+  left: 50%; /* This will center the element vertically */
+  transform: translateX(-50%); /* This will center the element vertically */
+  font-size: 2rem;
+  z-index: 1;
+  opacity: 0; /* Animation */
+}
+.title.active {
+  /* Animation */
+  opacity: 1;
+  transition: all 3s;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.img-wrap {
+  position: relative;
+  top: 40%;
+  /* leftはapp.jsで付加される */
+  height: 40%;
+  width: 1px; /* Animation */
+  overflow: hidden;
+  opacity: 0; /* Animation */
+}
+.img-wrap.active {
+  /* Animation */
+  width: 40vw;
+  opacity: 1;
+  transition: opacity 1s, width 2s;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.6); /* Animation */
+}
+.img-wrap.active > .img {
+  /* Animation */
+  transform: scale(1);
+  transition: 1s ease-out;
+}
+
+h2 {
+  position: absolute;
+  top: 70%;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+  z-index: 2;
+  /* Animation */
+  opacity: 0;
+  transition: 0.2s;
+}
+h2.active {
+  /* Animation */
+  opacity: 1;
+  transition: opacity 3s;
+}
