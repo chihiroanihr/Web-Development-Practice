@@ -3,20 +3,32 @@
 - How to implement smooth scrolling **without any React packages**.
 - Main Tasks:
   1. Smooth Scroll to specific Section when NavLink Button (or Brand Logo) is clicked
-      - ```renderNavLink()``` > ```handleClickNav()```
-      - ```handleClickLogo()```
-  3. Active Nav Link Indicator when scrolled to specific Section
-      - ```useState()```
-      - ```useRef()```
-      - ```useEffect()```
-      - ```useContext()```
-      - ```Provider```
-      - ```IntersectionObserver```
+     - `renderNavLink()` > `handleClickNav()`
+     - `handleClickLogo()`
+  2. Active Nav Link Indicator when scrolled to specific Section
+     - `useState()`
+     - `useRef()`
+     - `useEffect()`
+     - `useContext()`
+     - `Provider`
+     - `IntersectionObserver`
 
 # Screenshots
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/42660669/229956481-5768b77c-2b81-4e9a-9abc-1397ab848027.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/42660669/229956531-401e7fff-232a-4752-ab7a-6f6acaaaa5af.png">
+
+# Environment Used
+
+- create-react-app
+
+### Run App
+
+`npm start`
+
+### For Production
+
+`npm run build`
 
 # Original Source
 
