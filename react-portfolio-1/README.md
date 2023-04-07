@@ -45,6 +45,10 @@
 
 `$ npm install animate.css --save`
 
+# Assets Used
+
+- Custom Fonts
+
 # Environment Used
 
 - create-react-app

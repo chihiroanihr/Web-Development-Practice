@@ -16,6 +16,10 @@
 
 `npm install -D tailwindcss postcss autoprefixer`
 
+# Assets Used
+
+- Google Fonts
+
 # Environment Used
 
 - Vite.js
