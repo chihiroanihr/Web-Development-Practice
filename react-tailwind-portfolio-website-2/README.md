@@ -4,8 +4,9 @@
 
 - tailwindcss
 - postcss
-- autoprefixer
-  `npm install -D tailwindcss postcss autoprefixer`
+- autoprefixer<br />
+
+`npm install -D tailwindcss postcss autoprefixer`
 
 # Environment Used
 
