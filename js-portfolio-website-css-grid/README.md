@@ -10,7 +10,7 @@
 
 # Assets Used
 - **Google Fonts**: https://fonts.google.com/
-- **normalize.css**: github.com/necolas/normalize.css
+- **normalize.css**: https://github.com/necolas/normalize.css
 
 # Original Source
 
