@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import profileImg from "../public/dev-ed-wave.png";
+import profileImg from "../public/me.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -19,6 +19,7 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
 export default function Home() {
+  // State for toggling dark mode
   const [darkMode, setDarkMode] = useState(false);
 
   return (
@@ -40,7 +41,7 @@ export default function Home() {
               {/* Dark / Light Theme Button */}
               <li>
                 <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
+                  onClick={() => setDarkMode(!darkMode)} // toggle
                   className="text-2xl cursor-pointer"
                 />
               </li>
@@ -88,10 +89,12 @@ export default function Home() {
           </div>
         </section>
 
+        {/* --------------- Business Section --------------- */}
         <section>
+          {/* ---- Texts ---- */}
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="py-1 text-3xl dark:text-white">Services I offer</h3>
+            <p className="py-2 text-md leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
@@ -99,15 +102,17 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="py-2 text-md leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
           </div>
+          {/* ---- Cards ---- */}
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            {/* Card 1 */}
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-white">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <h3 className="pt-8 pb-2 text-lg font-medium">
                 Beautiful Designs
               </h3>
               <p className="py-2">
@@ -115,14 +120,15 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="py-1 text-gray-800">Photoshop</p>
+              <p className="py-1 text-gray-800">Illustrator</p>
+              <p className="py-1 text-gray-800">Figma</p>
+              <p className="py-1 text-gray-800">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            {/* Card 2 */}
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-white">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
+              <h3 className="pt-8 pb-2 text-lg font-medium">
                 Code your dream project
               </h3>
               <p className="py-2">
@@ -130,30 +136,34 @@ export default function Home() {
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="py-1 text-gray-800">Photoshop</p>
+              <p className="py-1 text-gray-800">Illustrator</p>
+              <p className="py-1 text-gray-800">Figma</p>
+              <p className="py-1 text-gray-800">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            {/* Card 3 */}
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-white">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="pt-8 pb-2 text-lg font-medium">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="py-1 text-gray-800">Photoshop</p>
+              <p className="py-1 text-gray-800">Illustrator</p>
+              <p className="py-1 text-gray-800">Figma</p>
+              <p className="py-1 text-gray-800">Indesign</p>
             </div>
           </div>
         </section>
+
+        {/* --------------- Projects Section --------------- */}
         <section className="py-10">
+          {/* ---- Texts ---- */}
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="py-1 text-3xl dark:text-white ">Portofolio</h3>
+            <p className="py-2 text-md leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
@@ -161,13 +171,15 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="py-2 text-md leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+          {/* ---- Projects ---- */}
+          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-10 py-10">
+            {/* Project 1 */}
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -176,7 +188,8 @@ export default function Home() {
                 src={web1}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* Project 2 */}
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -185,7 +198,8 @@ export default function Home() {
                 src={web2}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* Project 3 */}
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -194,7 +208,8 @@ export default function Home() {
                 src={web3}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* Project 4 */}
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -203,7 +218,8 @@ export default function Home() {
                 src={web4}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* Project 5 */}
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -212,7 +228,8 @@ export default function Home() {
                 src={web5}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* Project 6 */}
+            <div className="flex-1 basis-1/3">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
