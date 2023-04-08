@@ -8,6 +8,10 @@
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381698-278592c7-0645-4633-ab9c-61662cff4591.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381740-7b520fcb-e6e1-4c5c-be89-040a8eef7bc9.png">
 
+# Assets Used
+- **Google Fonts**: https://fonts.google.com/
+- **normalize.css**: github.com/necolas/normalize.css
+
 # Original Source
 
 ### Youtube: 
