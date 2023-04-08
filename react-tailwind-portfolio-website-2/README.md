@@ -13,16 +13,16 @@ Build a Responsive React Portfolio Website | Tailwind, Framer-Motion, & React Ho
 
 # Packages Installed
 
-- **tailwindcss**: https://tailwindcss.com/
+- **tailwindcss**: https://tailwindcss.com/<br />
   `npm install -D tailwindcss postcss autoprefixer`
 
-- **framer-motion**: https://www.framer.com/motion/
+- **framer-motion**: https://www.framer.com/motion/<br />
   `npm i framer-motion`
 
-- **react-anchor-link-smooth-scroll**: https://github.com/mauricevancooten/react-anchor-link-smooth-scroll
+- **react-anchor-link-smooth-scroll**: https://github.com/mauricevancooten/react-anchor-link-smooth-scroll<br />
   `npm i react-anchor-link-smooth-scroll`
 
-- **react-hook-form**: https://react-hook-form.com/
+- **react-hook-form**: https://react-hook-form.com/<br />
   `npm install react-hook-form`
 
 # Assets Used
