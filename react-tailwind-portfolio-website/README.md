@@ -1,4 +1,4 @@
-# Screenshots:
+# Screenshots
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/42660669/230507698-0bad8e8d-3967-4482-9559-8f4bca86ab1f.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/42660669/230507736-734ea871-ecb2-4aa6-9700-1647bd1120ed.png">
@@ -27,6 +27,6 @@
 
 `npm run build`
 
-# Youtube:
+# Youtube
 
 https://www.youtube.com/watch?v=82cN8zwDhbY
