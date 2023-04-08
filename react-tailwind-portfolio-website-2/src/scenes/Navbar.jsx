@@ -39,7 +39,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* Navbar */}
         {isAboveSmallScreen ? (
-          // ------------ Desktop Size ------------ //
+          // ------------ For Large Screen ------------ //
           <div className="flex justify-between gap-16 font-opensans font-semibold text-sm">
             <Link
               page="Home"
@@ -68,7 +68,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
           </div>
         ) : (
-          // ------------ Mobile Size ------------ //
+          // ------------ For Small Screen ------------ //
           <button
             className="rounded-full bg-red p-2"
             onClick={() => setIsMenuToggled(!isMenuToggled)}

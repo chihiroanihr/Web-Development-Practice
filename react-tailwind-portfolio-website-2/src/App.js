@@ -1,7 +1,15 @@
 import { useState, useEffect } from "react";
-import Navbar from "./scenes/Navbar";
-import DotGroup from "./scenes/DotGroup";
-import Landing from "./scenes/Landing";
+import {
+  Navbar,
+  DotGroup,
+  Landing,
+  MySkills,
+  Projects,
+  Testimonials,
+  Contact,
+  Footer,
+} from "./scenes";
+import { LineGradient } from "./components";
 import useMediaQuery from "./hooks/useMediaQuery";
 
 function App() {
@@ -13,6 +21,7 @@ function App() {
   // Set Media Query for Large Devices
   const isAboveMediumScreen = useMediaQuery("(min-width: 1060px)");
 
+  // Add an event listener to the window object for the scroll event
   useEffect(
     () => {
       // A handleScroll function that will be executed whenever the scroll event is triggered on the window object
@@ -42,8 +51,8 @@ function App() {
         setSelectedPage={setSelectedPage}
       />
 
-      {/* Content */}
-      <div className="w-5/6 md:h-full mx-auto">
+      {/* Home */}
+      <div className="w-5/6 mx-auto">
         {isAboveMediumScreen && (
           <DotGroup
             selectedPage={selectedPage}
@@ -52,6 +61,33 @@ function App() {
         )}
         <Landing setSelectedPage={setSelectedPage} />
       </div>
+
+      {/* Skills */}
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+        <MySkills />
+      </div>
+
+      {/* Projects */}
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+        <Projects />
+      </div>
+
+      {/* Testimonials */}
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+        <Testimonials />
+      </div>
+
+      {/* Contact */}
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+        <Contact />
+      </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

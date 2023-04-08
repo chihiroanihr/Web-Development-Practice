@@ -19,15 +19,16 @@ module.exports = {
       backgroundImage: (theme) => ({
         "gradient-rainbow":
           "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",
+
         "gradient-rainblue":
-          "linear-gradient(890deg, #24CFF 14.53%, #FC59FF 69.36%, #FFBD0C 107.73%)",
+          "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
       }),
-      // Font Family
+      // Fonts
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
         opensans: ["Open Sans", "sans-serif"],
       },
-      // Images
+      // Images (Useful to add images to the content for ":before" tag)
       content: {
         brush: "url('./assets/brush.png')",
         person1: "url('./assets/person-1.png')",

@@ -11,6 +11,9 @@
 - react-anchor-link-smooth-scroll
   `npm i react-anchor-link-smooth-scroll`
 
+- react-hook-form
+  `npm install react-hook-form`
+
 # Assets Used
 
 - Google Fonts
