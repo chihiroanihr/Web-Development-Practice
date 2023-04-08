@@ -18,6 +18,11 @@
 
 - Google Fonts
 
+# Form Endpoints Used
+
+- https://formsubmit.co/
+- Random email address string assigned: **2631bfcf8c48f0428927c8a30ebf92a1**
+
 # Environment Used
 
 - create-react-app
