@@ -21,7 +21,7 @@
 # Form Endpoints Used
 
 - https://formsubmit.co/
-- Random email address string assigned: **2631bfcf8c48f0428927c8a30ebf92a1**
+- Random email address string assigned: **2631bfcf8c48f0428927c8a30ebf92a1** (https://formsubmit.co/2631bfcf8c48f0428927c8a30ebf92a1)
 
 # Environment Used
 
@@ -30,6 +30,10 @@
 ### Run App
 
 `npm start`
+
+### Generate CSS based on tailwind configuration file
+
+`npx tailwindcss -i ./src/index.css -o ./public/output.css --watch`
 
 ### For Production
 
