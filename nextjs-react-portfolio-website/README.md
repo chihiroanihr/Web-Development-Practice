@@ -35,6 +35,8 @@
 
 ### Youtube:
 
+https://www.youtube.com/watch?v=k-Pi5ZMxHWY
+
 ### Github:
 
 https://github.com/developedbyed/react-portofolio-with-tailwind/tree/main
