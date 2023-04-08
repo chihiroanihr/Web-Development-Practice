@@ -6,11 +6,14 @@
 
 # Packages Installed
 
-- tailwindcss
-- postcss
-- autoprefixer<br />
+- **tailwindcss**
+- **postcss**
+- **autoprefixer**<br />
 
 `npm install -D tailwindcss postcss autoprefixer`
+
+# Assets Used
+- **Google Fonts**: https://fonts.google.com/
 
 # Environment Used
 
