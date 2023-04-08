@@ -1,10 +1,4 @@
-### Youtube: 
-https://www.youtube.com/watch?v=wceTVt111OM&t=3s
-
-### Github:
-https://github.com/kevin-powell/portfolio-with-css-grid
-
-### Screenshots:
+# Screenshots
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381593-f7b6d93c-5708-446e-bdd7-6abac8a42091.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381601-16c6fae2-1558-4ceb-b106-6b0e79ca95ae.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381616-d0bbfb76-ffcf-44b6-a1ed-0e5f7513376f.png">
@@ -13,3 +7,11 @@ https://github.com/kevin-powell/portfolio-with-css-grid
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381680-4bd92413-dd37-4be2-8a2e-07ec338be684.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381698-278592c7-0645-4633-ab9c-61662cff4591.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/229381740-7b520fcb-e6e1-4c5c-be89-040a8eef7bc9.png">
+
+# Original Source
+
+### Youtube: 
+https://www.youtube.com/watch?v=wceTVt111OM&t=3s
+
+### Github:
+https://github.com/kevin-powell/portfolio-with-css-grid
