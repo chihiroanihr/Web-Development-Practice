@@ -1,7 +1,7 @@
-### Screenshot:
+## Screenshot
 <img width="689" alt="Screenshot 2023-03-31 at 5 51 12 PM" src="https://user-images.githubusercontent.com/42660669/229239313-5c84663c-96fd-4838-b9b9-635337552728.png">
 
-### JavaScript Code for Animation On Scroll
+## JavaScript Code for Animation On Scroll
 ```js
 // Scroll Animate using Intersection Observer
 
