@@ -10,7 +10,8 @@
 - **postcss**
 - **autoprefixer**<br />
 
-`npm install -D tailwindcss postcss autoprefixer`
+  https://tailwindcss.com/<br />
+  `npm install -D tailwindcss postcss autoprefixer`
 
 # Assets Used
 - **Google Fonts**: https://fonts.google.com/
