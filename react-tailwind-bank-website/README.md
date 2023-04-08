@@ -10,15 +10,15 @@
 
 # Packages Installed
 
-- tailwindcss
-- postcss
-- autoprefixer<br />
+- **tailwindcss**
+- **postcss**
+- **autoprefixer**<br />
 
 `npm install -D tailwindcss postcss autoprefixer`
 
 # Assets Used
 
-- Google Fonts
+- **Google Fonts**: https://fonts.google.com/
 
 # Environment Used
 
@@ -34,14 +34,14 @@
 
 # Original Sources
 
-### Youtube
+### Youtube:
 
 https://www.youtube.com/watch?v=_oO4Qi5aVZs&list=WL&index=36&t=1s
 
-### Github
+### Github:
 
 https://github.com/adrianhajdin/project_hoobank/tree/main
 
-### Figma Design
+### Figma Design:
 
 https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?node-id=310-485&t=ww0n7LpwMJOmQk0Q-0
