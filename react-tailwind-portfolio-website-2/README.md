@@ -45,7 +45,8 @@ Build a Responsive React Portfolio Website | Tailwind, Framer-Motion, & React Ho
 
 ### Generate CSS based on tailwind configuration file
 
-`npx tailwindcss -i ./src/index.css -o ./public/output.css --watch`
+- `npx tailwindcss -i ./src/index.css -o ./public/output.css --watch`
+- `<link rel="stylesheet" href="/public/output.css">` inside <samp>**index.html**</samp>
 
 ### For Production
 
