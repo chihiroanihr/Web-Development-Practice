@@ -17,10 +17,10 @@
 
 # Original Sources
 
-### Youtube
+### Youtube:
 
 https://www.youtube.com/watch?v=I2UBjN5ER4s&list=WL&index=37
 
-### Github
+### Github:
 
 https://github.com/briancodex/react-website-v1/tree/master
