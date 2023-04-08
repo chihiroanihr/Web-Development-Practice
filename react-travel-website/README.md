@@ -1,11 +1,12 @@
 # Installed Packages
 
-- react-router-dom: `npm install react-router-dom`
+- **react-router-dom**: https://reactrouter.com/en/main<br />
+  `npm install react-router-dom`
 
 # Assets Used
 
-- Font Awesome: https://fontawesome.com/ (CDN link inside /public/index.html file)
-- Google Fonts
+- **Font Awesome**: https://fontawesome.com/ (CDN link inside /public/index.html file)
+- **Google Fonts**: https://fonts.google.com/
 
 # Screenshots
 
