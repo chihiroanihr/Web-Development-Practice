@@ -15,6 +15,18 @@
 - **Font Awesome**: https://fontawesome.com/ (CDN link inside /public/index.html file)
 - **Google Fonts**: https://fonts.google.com/
 
+# Environment Used
+
+- create-react-app
+
+### Run App
+
+`npm start`
+
+### For Production
+
+`npm run build`
+
 # Original Sources
 
 ### Youtube:
