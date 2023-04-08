@@ -1,4 +1,8 @@
 # Screenshots
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/230733750-ffcc7b1a-6653-45f7-b2f2-dbad68f48942.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/230733774-fb1ac56f-33c5-4cc5-a8f8-545492c0581c.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/230733782-01e07363-e5e1-494d-a7f4-6c916b840a70.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/42660669/230733792-10e8fba6-a0d5-4262-b8a2-485bfe508862.png">
 
 # Packages Installed
 
@@ -34,42 +38,3 @@
 ### Github:
 
 https://github.com/developedbyed/react-portofolio-with-tailwind/tree/main
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
