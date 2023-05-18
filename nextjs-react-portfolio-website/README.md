@@ -8,8 +8,7 @@
 
 - **tailwindcss**
 - **postcss**
-- **autoprefixer**<br />
-  https://tailwindcss.com/<br />
+- **autoprefixer**: https://tailwindcss.com/<br />
   `npm install -D tailwindcss postcss autoprefixer`
 
 - **react-icons**: https://react-icons.github.io/react-icons<br />
