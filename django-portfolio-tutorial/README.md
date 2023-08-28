@@ -8,13 +8,11 @@
 
 ## DB Admin
 <img width="798" alt="image" src="https://user-images.githubusercontent.com/42660669/229224674-f49c41fe-685e-4f1b-8337-8ce3acb9971c.png">
-admin <br>
-리나삼삼 <br>
 
 ## Original Sources
 
 ### Youtube:
-[![](https://res.cloudinary.com/dhaciqd0v/image/upload/v1659354208/LINE/Frame_273_ro0syl.png)](https://www.youtube.com/watch?v=BxQY3D9s_Mc&list=PLoSZs76tLtJhf_xy-n2QGVurW5nWQNW8g)
+[![Youtube](https://res.cloudinary.com/dhaciqd0v/image/upload/v1659354208/LINE/Frame_273_ro0syl.png)](https://www.youtube.com/watch?v=BxQY3D9s_Mc&list=PLoSZs76tLtJhf_xy-n2QGVurW5nWQNW8g)
 
 ### Github Source:
 https://github.com/haruyasu/django-portfolio-youtube
