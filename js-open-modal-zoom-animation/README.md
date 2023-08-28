@@ -1,7 +1,7 @@
 # Open-Clicked-Modal
 Open the currently clicked Modal using Vanilla JavaScript
 
-### [Demo Link](https://gulshancodes.github.io/open-clicked-modal/) 🔗
+#### [Demo Link](https://gulshancodes.github.io/open-clicked-modal/)
 
 ### Screenshots:
 <img width="600" alt="Screenshot 2023-03-31 at 6 01 05 PM" src="https://user-images.githubusercontent.com/42660669/229240885-8d0fab01-8b5f-4039-b6d2-47a17b4f7762.png">
