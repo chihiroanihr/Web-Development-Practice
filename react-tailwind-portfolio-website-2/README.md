@@ -13,27 +13,26 @@ Build a Responsive React Portfolio Website | Tailwind, Framer-Motion, & React Ho
 
 # Packages Installed
 
-- **tailwindcss**: https://tailwindcss.com/<br />
+- [**tailwindcss**](https://tailwindcss.com/)<br />
   `npm install -D tailwindcss postcss autoprefixer`
 
-- **framer-motion**: https://www.framer.com/motion/<br />
+- [**framer-motion**](https://www.framer.com/motion/)<br />
   `npm i framer-motion`
 
-- **react-anchor-link-smooth-scroll**: https://github.com/mauricevancooten/react-anchor-link-smooth-scroll<br />
+- [**react-anchor-link-smooth-scroll**](https://github.com/mauricevancooten/react-anchor-link-smooth-scroll)<br />
   `npm i react-anchor-link-smooth-scroll`
 
-- **react-hook-form**: https://react-hook-form.com/<br />
+- [**react-hook-form**](https://react-hook-form.com/)<br />
   `npm install react-hook-form`
 
 # Assets Used
 
-- **Google Fonts**: https://fonts.google.com/
+- [**Google Fonts**](https://fonts.google.com/)
 
 # Form Endpoints Used
 
-- **formsubmit.co**: https://formsubmit.co/<br />
-  Random email address string assigned: **2631bfcf8c48f0428927c8a30ebf92a1**<br />
-  (https://formsubmit.co/2631bfcf8c48f0428927c8a30ebf92a1)
+- [**formsubmit.co**](https://formsubmit.co/)<br />
+  Random email address string assigned: [**2631bfcf8c48f0428927c8a30ebf92a1**](https://formsubmit.co/2631bfcf8c48f0428927c8a30ebf92a1)
 
 # Environment Used
 
@@ -52,10 +51,6 @@ Build a Responsive React Portfolio Website | Tailwind, Framer-Motion, & React Ho
 
 `npm run build`
 
-# Original Sources
-
-### Youtube:
-https://www.youtube.com/watch?v=JSJ8ftr92Vw
-
-### Github:
-https://github.com/ed-roh/react-portfolio
+# References
+- [Youtube](https://www.youtube.com/watch?v=JSJ8ftr92Vw)
+- [Github](https://github.com/ed-roh/react-portfolio)
