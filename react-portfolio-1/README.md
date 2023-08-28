@@ -29,12 +29,12 @@
 
 `$npm i react-mailchimp-subscribe`
 
-**->** You need to create mailchimp account <br>
-**->** Audience **>** Sign Up Forms **>** Form Builder (select) <br>
-**->** Copy Sign Up Form URL and open in new tab <br>
-**->** Right-click on the new tab "Sign Up Form" page **>** View page source <br>
-**->** Scroll way down the page until you get to the `<form>` section <br>
-**->** There are 4 parts to copy and save for later reference... <br>
+**-->** You need to create mailchimp account <br>
+**-->** Audience **>** Sign Up Forms **>** Form Builder (select) <br>
+**-->** Copy Sign Up Form URL and open in new tab <br>
+**-->** Right-click on the new tab "Sign Up Form" page **>** View page source <br>
+**-->** Scroll way down the page until you get to the `<form>` section <br>
+**-->** There are 4 parts to copy and save for later reference... <br>
 &emsp;The URL inside of the action="". <br>
 &emsp;The value in the input field with name="u". <br>
 &emsp;The value in the input field with name="id". <br>
@@ -61,12 +61,6 @@
 
 `npm run build`
 
-# Original Sources
-
-### Youtube:
-
-https://www.youtube.com/watch?v=hYv6BM2fWd8
-
-### Github:
-
-https://github.com/judygab/web-dev-projects/tree/main/personal-portfolio
+# References
+- [Youtube](https://www.youtube.com/watch?v=hYv6BM2fWd8)
+- [Github](https://github.com/judygab/web-dev-projects/tree/main/personal-portfolio)
