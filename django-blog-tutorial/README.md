@@ -12,5 +12,5 @@
 <img width="796" alt="image" src="https://user-images.githubusercontent.com/42660669/229226240-fb1c7e8d-8dd1-408f-a60c-0084674d1e0c.png">
 
 ## References
-- [Youtube: はじめてのブログサイト(Django)]](https://www.youtube.com/watch?v=NeGGafSMov8&list=PLoSZs76tLtJihI7ME-qhzDpBOQy4yILcW "はじめてのブログサイト(Django)")
+- [Youtube: はじめてのブログサイト(Django)](https://www.youtube.com/watch?v=NeGGafSMov8&list=PLoSZs76tLtJihI7ME-qhzDpBOQy4yILcW "はじめてのブログサイト(Django)")
 - [Github](https://github.com/haruyasu/django-blog)
