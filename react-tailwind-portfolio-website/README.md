@@ -9,12 +9,11 @@
 - **tailwindcss**
 - **postcss**
 - **autoprefixer**<br />
-
   https://tailwindcss.com/<br />
   `npm install -D tailwindcss postcss autoprefixer`
 
 # Assets Used
-- **Google Fonts**: https://fonts.google.com/
+- [**Google Fonts**](https://fonts.google.com/)
 
 # Environment Used
 
@@ -28,6 +27,5 @@
 
 `npm run build`
 
-# Youtube
-
-https://www.youtube.com/watch?v=82cN8zwDhbY
+# References
+- [Youtube](https://www.youtube.com/watch?v=82cN8zwDhbY)
