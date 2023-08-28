@@ -32,10 +32,8 @@
 
 # Original Source
 
-### Youtube:
-
-https://www.youtube.com/watch?v=zVzKEVmigPY&list=WL&index=62
-
+### References
+- [Youtube](https://www.youtube.com/watch?v=zVzKEVmigPY)
 0:00 - Intro <br />
 00:07 - Demo <br />
 00:48 - Setup CRA <br />
@@ -47,6 +45,4 @@ https://www.youtube.com/watch?v=zVzKEVmigPY&list=WL&index=62
 35:13 - Add ActiveClass Styling <br />
 38:24 - Done <br />
 
-### Github:
-
-https://github.com/candraKriswinarto/react-smooth-scrolling
+- [Github](https://github.com/candraKriswinarto/react-smooth-scrolling)
