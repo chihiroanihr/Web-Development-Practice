@@ -13,13 +13,12 @@
 - **tailwindcss**
 - **postcss**
 - **autoprefixer**<br />
-
-  https://tailwindcss.com/<br />
-  `npm install -D tailwindcss postcss autoprefixer`
+https://tailwindcss.com/<br />
+`npm install -D tailwindcss postcss autoprefixer`
 
 # Assets Used
 
-- **Google Fonts**: https://fonts.google.com/
+- [**Google Fonts**](https://fonts.google.com/)
 
 # Environment Used
 
@@ -33,16 +32,7 @@
 
 `npm run build`
 
-# Original Sources
-
-### Youtube:
-
-https://www.youtube.com/watch?v=_oO4Qi5aVZs&list=WL&index=36&t=1s
-
-### Github:
-
-https://github.com/adrianhajdin/project_hoobank/tree/main
-
-### Figma Design:
-
-https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?node-id=310-485&t=ww0n7LpwMJOmQk0Q-0
+# References
+- [Youtube](https://www.youtube.com/watch?v=_oO4Qi5aVZs)
+- [Github](https://github.com/adrianhajdin/project_hoobank/tree/main)
+- [Figma Design](https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?node-id=310-485&t=ww0n7LpwMJOmQk0Q-0)
