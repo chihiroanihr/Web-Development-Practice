@@ -10,14 +10,7 @@
 
 ## DB Admin
 <img width="796" alt="image" src="https://user-images.githubusercontent.com/42660669/229226240-fb1c7e8d-8dd1-408f-a60c-0084674d1e0c.png">
-admin<br>
-rhina99@naver.com<br>
-리나삼삼<br>
 
-## Original Sources
-
-### Youtube:
-[![はじめてのブログサイト(Django)](https://i.ytimg.com/vi/NeGGafSMov8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVPKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAQ9GLA7XzFRNUopMGySlQ9qqxcRA)](https://www.youtube.com/watch?v=NeGGafSMov8&list=PLoSZs76tLtJihI7ME-qhzDpBOQy4yILcW "はじめてのブログサイト(Django)")
-
-### Github Source:
-https://github.com/haruyasu/django-blog
+## References
+- [Youtube: はじめてのブログサイト(Django)]](https://www.youtube.com/watch?v=NeGGafSMov8&list=PLoSZs76tLtJihI7ME-qhzDpBOQy4yILcW "はじめてのブログサイト(Django)")
+- [Github](https://github.com/haruyasu/django-blog)
