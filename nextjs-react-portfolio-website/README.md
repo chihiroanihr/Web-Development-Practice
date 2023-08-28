@@ -16,7 +16,7 @@
 
 # Assets Used
 
-- **Google Fonts**: https://fonts.google.com/
+- [**Google Fonts**](https://fonts.google.com/)
 
 # Environment Used
 
@@ -30,12 +30,6 @@
 
 `npm run build`
 
-# Original Sources
-
-### Youtube:
-
-https://www.youtube.com/watch?v=k-Pi5ZMxHWY
-
-### Github:
-
-https://github.com/developedbyed/react-portofolio-with-tailwind/tree/main
+# References
+- [Youtube](https://www.youtube.com/watch?v=k-Pi5ZMxHWY)
+- [Github](https://github.com/developedbyed/react-portofolio-with-tailwind/tree/main)
