@@ -12,8 +12,8 @@
 
 # Assets Used
 
-- **Font Awesome**: https://fontawesome.com/ (CDN link inside /public/index.html file)
-- **Google Fonts**: https://fonts.google.com/
+- [**Font Awesome**](https://fontawesome.com/) (CDN link inside /public/index.html file)
+- [**Google Fonts**](https://fonts.google.com/)
 
 # Environment Used
 
@@ -27,12 +27,6 @@
 
 `npm run build`
 
-# Original Sources
-
-### Youtube:
-
-https://www.youtube.com/watch?v=I2UBjN5ER4s&list=WL&index=37
-
-### Github:
-
-https://github.com/briancodex/react-website-v1/tree/master
+# References
+- [Youtube](https://www.youtube.com/watch?v=I2UBjN5ER4s)
+- [Github](https://github.com/briancodex/react-website-v1/tree/master)
