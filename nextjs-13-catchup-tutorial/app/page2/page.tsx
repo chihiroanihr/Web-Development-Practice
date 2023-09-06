@@ -16,6 +16,9 @@ export default function Page() {
         <li>
           <Link href="page1">Page 1</Link>
         </li>
+        <li>
+          <Link href="todos">Todos</Link>
+        </li>
       </ul>
     </div>
   );

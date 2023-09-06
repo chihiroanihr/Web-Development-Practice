@@ -16,6 +16,9 @@ export default function Home() {
         <li>
           <Link href="page2">Page 2</Link>
         </li>
+        <li>
+          <Link href="todos">Todos</Link>
+        </li>
       </ul>
     </div>
   );
